@@ -1,10 +1,13 @@
-//Author : Valentine Elum
-//For : Desyn Open Source
-//Twitter : @VahlCode
-//License : MIT License 
+/*
 
+Author : Valentine Elum
+For : Desyn Open Source
+Twitter : @VahlCode
+License : MIT License 
 
-module.exports = function inkmbt(number) {
+*/
+
+const inkmbt = (number) => {
     if (number > 999 && number <= 999999) {
         let output = Math.floor(number/1000)+'k';
         return output;
@@ -21,3 +24,5 @@ module.exports = function inkmbt(number) {
         return number;
     }
 }
+
+export default inkmbt;
