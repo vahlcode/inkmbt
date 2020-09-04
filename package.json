@@ -1,6 +1,6 @@
 {
   "name": "inkmbt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Format numbers in Twitter like formats, thousands in K, millions in M and Trillions in T.",
   "main": "./src/index.js",
   "exports": {
